@@ -1,7 +1,6 @@
 {
   "name": "google-places",
   "version": "0.0.1",
-  "private": true,
   "description": "Librería para NodeJS, que hace de proxy con los servicio de Google Places con posibilidad de cachear en Redis.",
   "main": "index.js",
   "directories": {
@@ -23,5 +22,8 @@
     "lodash": "^3.10.1",
     "request": "^2.61.0",
     "super-cache": "git+ssh://git@gitlab.itsolutions.lan:muchosol/super-cache.git#0.0.1"
+  },
+  "publishConfig" : {
+    "registry" : "https://nexus.avantio.int/repository/npm-private/"
   }
 }
