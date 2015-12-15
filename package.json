@@ -1,6 +1,6 @@
 {
   "name": "google-places",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Librería para NodeJS, que hace de proxy con los servicio de Google Places con posibilidad de cachear en Redis.",
   "main": "index.js",
   "directories": {
