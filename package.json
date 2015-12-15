@@ -23,13 +23,6 @@
     "request": "2.67.0",
     "super-cache": "0.0.1"
   },
-  "devDependencies": {
-    "gulp": "3.9.0",
-    "gulp-bump": "1.0.0",
-    "gulp-util": "3.0.7",
-    "wrench": "1.5.8",
-    "yargs": "3.31.0"
-  },
   "publishConfig": {
     "registry": "https://nexus.avantio.int/repository/npm-private/"
   },
