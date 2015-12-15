@@ -19,11 +19,17 @@
     "nodejs"
   ],
   "dependencies": {
-    "lodash": "^3.10.1",
-    "request": "^2.61.0",
+    "lodash": "3.10.1",
+    "request": "2.67.0",
     "super-cache": "0.0.1"
   },
-  "publishConfig" : {
-    "registry" : "https://nexus.avantio.int/repository/npm-private/"
-  }
+  "devDependencies": {
+    "gulp": "3.9.0",
+    "gulp-bump": "1.0.0",
+    "yargs": "3.31.0"
+  },
+  "publishConfig": {
+    "registry": "https://nexus.avantio.int/repository/npm-private/"
+  },
+  "license": "UNLICENSED"
 }
