@@ -1,7 +1,5 @@
 'use strict';
 
-require('app-module-path').addPath(__dirname); // Quítalo y estás muerto.
-
 var gulp = require('gulp');
 var gutil = require('gulp-util');
 var wrench = require('wrench');
@@ -21,6 +19,6 @@ wrench.readdirSyncRecursive('./gulp').filter(function(file) {
   require('./gulp/' + file)(options);
 });
 
-gulp.task('default', ['clean'], function () {
-    gulp.start('bump:major');
+gulp.task('default', function () {
+    gulp.start('bump:patch');
 });
