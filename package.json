@@ -21,7 +21,7 @@
   "dependencies": {
     "lodash": "3.10.1",
     "request": "2.67.0",
-    "super-cache": "0.0.3"
+    "super-cache": "0.0.5"
   },
   "publishConfig": {
     "registry": "https://nexus.avantio.int/repository/npm-private/"
