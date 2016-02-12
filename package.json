@@ -19,8 +19,8 @@
     "nodejs"
   ],
   "dependencies": {
-    "lodash": "3.10.1",
-    "request": "2.67.0",
+    "lodash": "4.3.0",
+    "request": "2.69.0",
     "super-cache": "0.1.0"
   },
   "publishConfig": {
